@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+* {
+    margin:  0px;
+    padding: 0px;
+}
+
+
+
+main {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    max-width: 400px;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+padding: 30px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.5em;
+}
+
+span {
+    font-size: small;
+    font-weight: 100;
+    
+}
+
+p {
+    margin: 10px;
+    max-width: 180px;
+    font-family: cursive;
+    font-size: medium;
+    padding: 30px 0px 0px 30px;
+    line-height: 5vh;
+}
+
+#img1 {
+background-image: url(imagens/background001.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+height: 60vh;
+background-size: cover;
+margin: 30px 0px 0px 0px;
+}
+
+aside#img1 p {
+    position: absolute;
+    margin: 30px 0px 0px 10px;
+    background-color: rgba(0, 0, 0, 0.253);
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+#img2 {
+    background-image: url(imagens/background002.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+height: 60vh;
+background-size: cover;
+margin: 30px 0px 0px 0px;
+}
+
+aside#img2 p {
+    position: absolute;
+    margin: 30px 0px 0px 10px;
+    background-color: rgba(0, 0, 0, 0.253);
+    color: white;
+    text-shadow: 2px 2px 2px black;   
+}
+
+
+footer {
+    padding: 5px;
+    position: relative;
+    background-color: black;
+    text-align: center;
+    height: 3vh;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: red;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+
